@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  user-select: none;
+	font-weight: 100;
 }
 
 body {width: 100%;}
@@ -14,7 +13,6 @@ nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  background-image: url("../img/menu.png");
   opacity: 99%;
 }
 
@@ -27,7 +25,7 @@ nav{
 
 nav .wrapper{
   position: relative;
-  max-width: 1300px;
+  width: 100%;
   padding: 0px 30px;
   height: 80px;
   line-height: 70px;
@@ -35,6 +33,7 @@ nav .wrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
+	  background-image: url("../img/menu.png");
 }
 
 nav input{
@@ -86,11 +85,7 @@ nav input{
 	justify-content: space-around;
 }
 
-@media screen and (min-width: 1500px) {
-	.logo {
-	margin-left: -10%;
-}
-}
+
 
 
 @media screen and (max-width: 1100px) {
@@ -373,5 +368,303 @@ nav input{
 }
 	
 }
+
+
+/*SPECIAL EFFECTS*/
+
+.shadow {
+	width: 100%;
+	height: 20px;
+	background-image: url("../img/effects/shadow.png");
+	background-size: contain;
+	margin-bottom: 50px;
+}
+
+.shadow2 {
+	width: 100%;
+	height: 20px;
+	background-image: url("../img/effects/shadow2.png");
+	background-size: contain;
+	margin-top: 50px;
+}
+
+
+#about_best {
+	background-image: url("../img/people/ivan.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right bottom; 
+	width: 100%;
+	padding-right: 5%;
+}
+
+#ivan {display: none;}
+
+@media screen and (max-width: 1250px) {
+	p.box{
+		width: 80%;
+		margin: 60px;
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	#about_best {
+					background-position: right center; 
+		background-size: 450px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#about_best {
+		background-size: 400px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#about_best {
+		background: none;
+	}
+}
+
+/*IMAGES*/
+.image_top {
+	display: none;
+}
+
+@media screen and (max-width: 850px) {
+	
+.image_top {
+	display: block;
+	width: 60%;
+	margin-bottom: 30px;
+}
+}
+
+
+/*ARTICLES*/
+
+article {
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article:nth-child(odd){
+	background-color: #f4f4f4;
+	padding: 30px 0;
+}
+
+article:nth-child(odd) h3 {
+	color: #f26522;
+	font-weight: 400;
+	font-size: 40px;
+	margin-bottom: 40px;
+	width: 80%;
+		margin-left: 7.5%;
+}
+
+article:nth-child(odd) b {
+	color: #990033;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+article:nth-child(odd) p {
+	color: black;
+	font-weight: normal;
+	font-size: 25px;
+	margin-left: 7.5%;
+	width: 50%;
+}
+
+article:nth-child(odd) .box {
+
+padding: 5px 10px;
+background-color: #f26522;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: auto;
+	float: left;
+	margin: 50px;
+	margin-left: 7.5%;
+	font-size: 35px;
+}
+
+article:nth-child(even){
+	background-color: #990033;
+}
+
+#ivan2 {
+	display: none;
+}
+
+@media screen and (max-width: 1250px) {
+
+	article:nth-child(odd) h3 {
+	font-size: 40px;
+}
+
+article:nth-child(odd) b {
+	font-size: 45px;
+}
+
+article:nth-child(odd) p {
+	font-size: 20px;
+}
+
+article:nth-child(odd) .box {
+	padding: 5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 30px;
+	margin-left: 7.5%;
+	font-size: 25px;
+}
+	
+}
+
+@media screen and (max-width: 1100px) {
+
+	article:nth-child(odd) h3 {
+	font-size: 30px;
+}
+
+article:nth-child(odd) b {
+	font-size: 40px;
+}
+
+article:nth-child(odd) p {
+	font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+article:nth-child(odd) h3 {
+	font-size: 30px;
+}
+
+article:nth-child(odd) b {
+	font-size: 40px;
+}
+
+article:nth-child(odd) p {
+	font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+	article {
+			justify-content: center;
+	}
+	
+	article:nth-child(odd) h3 {
+		width: 40%;
+		margin-left: 7.5%;
+		font-size: 45px;
+		overflow: hidden;
+		float: left;
+		order:1;
+}
+	article:nth-child(odd) b {
+	font-size: 55px;
+}
+	
+article:nth-child(odd) p {
+	width: 80%;
+	font-size: 30px;
+	margin-left: 0;
+	order:3;
+	}
+	
+article:nth-child(odd) .box {
+	padding: 5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 50px;
+	margin-left: 7.5%;
+	font-size: 35px;
+	order:4;
+}
+	
+	.image_top {
+		order: 2;
+		width: 50%;
+	}
+	
+}
+
+@media screen and (max-width: 770px) {
+
+#about_best	h3 {
+		width: 80%;
+	margin-left: 0;
+	order: 2;
+	}
+	
+	#about_best .title {
+		padding-bottom: -20px;
+	}
+
+	#ivan1 {
+		display: none;
+	}
+	
+	#ivan2 {
+		display: flex;
+		order: 1;
+		width: 65%;
+	}
+	
+}
+
+@media screen and (max-width: 630px) {
+	#about_best	h3 {
+		font-size: 35px;
+	}
+	#about_best	b {
+		font-size: 45px;
+	}
+	
+	#about_best	p {
+		font-size: 25px;
+	}
+	
+}
+
+@media screen and (max-width: 550px) {
+	
+	#about_best	h3 {
+		margin-bottom: 20px;
+	}
+	
+	#about_best	p {
+		font-size: 20px;
+	}
+	
+}
+
+@media screen and (max-width: 440px) {
+	
+	#about_best	h3 {
+		max-width: 80%;
+		font-size: 30px;
+	}
+	#about_best	b {
+		font-size: 40px;
+	}
+	
+	#about_best	p {
+		font-size: 15px;
+	}
+	
+}
+
+	
 
 
