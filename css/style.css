@@ -286,14 +286,14 @@ nav input{
 }
 
 @keyframes slide {
-	0% {background-image: url("../img/slideshow/image4.png"); }
-		0.1% {background-image: url("../img/slideshow/image3.png");}
-		0.2% {background-image: url("../img/slideshow/image2.png");}
-		0.3% {background-image: url("../img/slideshow/image1.png");}
-	25% {background-image: url("../img/slideshow/image2.png");}
-	50% {background-image: url("../img/slideshow/image3.png");}
-	75% {background-image: url("../img/slideshow/image4.png");}
-	100% {background-image: url("../img/slideshow/image1.png");}
+	0% {background-image: url("../img/slideshow/image4.webp"); }
+		0.1% {background-image: url("../img/slideshow/image3.webp");}
+		0.2% {background-image: url("../img/slideshow/image2.webp");}
+		0.3% {background-image: url("../img/slideshow/image1.webp");}
+	25% {background-image: url("../img/slideshow/image2.webp");}
+	50% {background-image: url("../img/slideshow/image3.webp");}
+	75% {background-image: url("../img/slideshow/image4.webp");}
+	100% {background-image: url("../img/slideshow/image1.webp");}
 	}
 
 
@@ -375,7 +375,7 @@ nav input{
 .shadow {
 	width: 100%;
 	height: 20px;
-	background-image: url("../img/effects/shadow.png");
+	background-image: url("../img/effects/shadow.webp");
 	background-size: contain;
 	margin-bottom: 50px;
 }
@@ -383,14 +383,14 @@ nav input{
 .shadow2 {
 	width: 100%;
 	height: 20px;
-	background-image: url("../img/effects/shadow2.png");
+	background-image: url("../img/effects/shadow2.webp");
 	background-size: contain;
 	margin-top: 50px;
 }
 
 
 #about_best {
-	background-image: url("../img/people/ivan.png");
+	background-image: url("../img/people/ivan.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right bottom; 
