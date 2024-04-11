@@ -286,10 +286,7 @@ nav input{
 }
 
 @keyframes slide {
-	0% {background-image: url("../img/slideshow/image4.webp"); }
-		0.1% {background-image: url("../img/slideshow/image3.webp");}
-		0.2% {background-image: url("../img/slideshow/image2.webp");}
-		0.3% {background-image: url("../img/slideshow/image1.webp");}
+	0% {background-image: url("../img/slideshow/image1.webp"); }
 	25% {background-image: url("../img/slideshow/image2.webp");}
 	50% {background-image: url("../img/slideshow/image3.webp");}
 	75% {background-image: url("../img/slideshow/image4.webp");}
