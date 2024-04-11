@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="TRAJA Frankfuruvnici">
+    <meta name="description" content="THIS IS BEST SITE KEver">
+    <title>BEST KE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+	<body>
+
+		<!-- MENU -->
+<nav>
+    <div class="wrapper">
+      <div class="logo"></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+		 <label for="close-btn" class="btn close-btn" id="close"><i class="fa fa-times"></i></label>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about_best">About BEST</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our courses</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars" style="color: #f26522;"></i></label>
+
+    </div>
+	<div class="shadow"></div>
+  </nav>
+		
+		<div class="slideshow-container" id="home">
+
+			<div class="info">
+			<h2>We're connecting<br>Universities, Students,<br> and Companies.<br>We are <b>BEST</b></h2>
+			</div>
+			
+</div>
+		
+<article id="about_best">
+	<img src="img/people/ivan.webp" class="image_top" alt="Our dear Ivan" id="ivan1">
+		<img src="img/people/ivan2.webp" class="image_top" alt="Our dear Ivan" id="ivan2">
+<h3><b>B</b>oard of <b>E</b>uropean <br><b>S</b>tudents of <b>T</b>echnology</h3>
+	
+	
+	<p>is a constantly growing, non-profit and non-political organisation 
+		founded in 1989. Our goal is to give students opportunuties 
+		to develop new skills as well as to discover cultures, 
+		places and other students all over Europe.
+	</p>
+	
+	<p class="box">
+	Would you like to join us?
+	</p>
+		
+</article>
+		
+		<article>
+			<div class="shadow"></div>
+			
+			<div class="shadow2"></div>
+		</article>
+
+
+
+<script>
+
+	document.addEventListener("DOMContentLoaded", function() {
+  // Get all menu items
+  var menuItems = document.querySelectorAll('.nav-links li a');
+
+  // Add click event listener to each menu item
+  menuItems.forEach(function(item) {
+    item.addEventListener('click', function() {
+      // Programmatically trigger the click event on the close button
+      var closeBtn = document.getElementById('close-btn');
+      closeBtn.click();
+    });
+  });
+});
+	
+</script>
+
+
+		
+		
+		
+</body>
+</html>
