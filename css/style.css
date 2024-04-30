@@ -500,6 +500,11 @@ nav input{
 
 /*ARTICLES*/
 
+.first {
+	background-color: red;
+	height: 100px;
+}
+
 article {
 	width: 100%;
 	min-height: 50px;
@@ -654,7 +659,84 @@ article:nth-child(odd) .box {
 	
 }
 
+/*ABOUT BEST*/
+
+#about_best {
+	padding-top: 100px;
+}
+
+.none {
+	display: none;
+}
+
+
+/*MAP*/
+
+#map {
+	background-image: url("../img/icons/our_map.bmp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#map .shadow {
+	margin-bottom: 450px;
+}
+
+
+
+/*OUR MISSIONS*/
+
+#missions {
+	background-image: url("../img/icons/monkey.bmp");
+	background-size: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#missions h3 {
+	color: #990033;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 0;
+	order: 1;
+}
+
+.mission {
+	min-height: 100px;
+	width: 30%;
+	margin: 5% 10% 5%;
+	order: 2;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.mission h4 {
+	color: #f26522;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.mission .text {
+	font-size: 20px;
+	width: 100%;
+}
 	
+@media screen and (max-width: 550px) {
+	#missions h3 {
+		order: 1;
+	}
+}
+
 @media screen and (max-width: 770px) {
 
 #about_best	h3 {
@@ -786,7 +868,7 @@ footer h3 {
 }
 
 footer p, a {
-	color: #fff;
+	color:#D2CFD0;
 	text-align: left;
 	text-decoration: none;
 	font-weight: 300;
