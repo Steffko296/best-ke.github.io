@@ -3,7 +3,7 @@
 
 	<h3>YOU CAN FIND US HERE:</h3>
 	
-	<h4>Letná 9, 040 01 Košice, Slovakia</h4>
+	<h4>Boženy Nemcovej 32, 040 01 Košice, Slovakia</h4>
 	
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.730271447!2d21.240724012751727!3d48.72974540963041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee05ed1604bd7%3A0x78a8ea1afba6fbdb!2zTGV0bsOhIDksIDA0MCAwMSBLb8WhaWNl!5e0!3m2!1ssk!2ssk!4v1715360083239!5m2!1ssk!2ssk" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </article>
