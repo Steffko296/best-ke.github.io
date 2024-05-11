@@ -1,12 +1,41 @@
 <article class="none"></article>
-<article id="article_contact">
+<div class="contacts" id="article_contact">
 
-	<h3>YOU CAN FIND US HERE:</h3>
+	<h3>Contact us:</h3>
 	
-	<h4>Boženy Nemcovej 32, 040 01 Košice, Slovakia</h4>
+	<div class="col">
+		<div class="contact_block">
+			<img class="contact_block_img" src="../img/icons/adress.png"></img>
+			
+			<div class="contact_block_info">
+				<h5>Location:</h5>
+				<p>Technicka univerzita,
+						Boženy Nemcovej 32</p>
+			</div>
+		</div>
+		<div class="contact_block">
+			<img class="contact_block_img" src="../img/icons/email.png"></img>
+
+			<div class="contact_block_info">
+				<h5>Email:</h5>
+				<p>kosice@best-eu.org</t>
+			</div>
+		</div>
+		<div class="contact_block">
+			<img class="contact_block_img" src="../img/icons/phone.png"></img>
+			
+			<div class="contact_block_info">
+				<h5>Call:</h5>
+				<p>+421-55-6022142</p>
+			</div>
+		</div>
+	</div>
 	
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.730271447!2d21.240724012751727!3d48.72974540963041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee05ed1604bd7%3A0x78a8ea1afba6fbdb!2zTGV0bsOhIDksIDA0MCAwMSBLb8WhaWNl!5e0!3m2!1ssk!2ssk!4v1715360083239!5m2!1ssk!2ssk" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</article>
+	<div class="col">
+		<iframe class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.730271447!2d21.240724012751727!3d48.72974540963041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee05ed1604bd7%3A0x78a8ea1afba6fbdb!2zTGV0bsOhIDksIDA0MCAwMSBLb8WhaWNl!5e0!3m2!1ssk!2ssk!4v1715360083239!5m2!1ssk!2ssk"></iframe>
+	</div>
+	
+</div>
 
 <article id="board">
 	<div class="shadow"></div>
