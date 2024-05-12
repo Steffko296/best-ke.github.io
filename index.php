@@ -104,22 +104,32 @@
 
 	<div id="footer_part">
 		<div class="footer_part"></div>
+		
+		<div class="footer_part">
+			<h3 class="footer_info">SOCIAL MEDIA</h3>
+			<p>
+				<img href="https://instagram.com" src="/img/icons/facebook.png"></img>
+				<a href="https://facebook.com">FACEBOOK</a>
+			</p>
+			<p>
+				<img href="https://instagram.com" src="/img/icons/instagram.png"></img>
+				<a href="https://instagram.com">INSTAGRAM</a>
+			</p>
+		</div>
 	
 		<div class="footer_part">
-			<div><h3 class="footer_info">SOCIAL MEDIA</h3>
-			<p><a href="https://facebook.com">FACEBOOK</a></p>
-			<p><a href="https://instagram.com">INSTAGRAM</a></p>
-			</div>
-		</div>
-	
-	<div class="footer_part">
-	
-		<div id="contact"><h3>CONTACT US</h3>
-			<p>EMAIL: kosice@best.eu.org</p>
+			<h3 class="footer_info">CONTACT US</h3>
+			<p>
+				<img style="height: 48px;" src="/img/icons/email_white.png"></img>
+				<a>kosice@best.eu.org</a>
+			</p>
+			<p>
+				<img style="height: 48px;" src="/img/icons/location_white.png"></img>
+				<a>Boženy Nemcovej 32</a>
+			</p>
 		</div>
 	</div>
-	
-	</div>	
+
 	<p id="year"><?php echo date("Y"); ?></p>
 </footer>
 		

@@ -1723,6 +1723,7 @@ footer p, a {
 	text-decoration: none;
 	font-weight: 300;
 	font-size: 20px;
+	align-items: center;
 }
 
 footer {
@@ -1740,6 +1741,10 @@ footer {
 	flex-flow: row;
 	flex-wrap: wrap;
 	padding-top: 30px;
+}
+
+#footer_part p {
+	display: flex;
 }
 
 .footer_part {
