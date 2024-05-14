@@ -2,16 +2,16 @@
 
 <article id="about_us">
 	<div class="text_left">
-		<h3>Oficial Information</h3>
+		<h3>Official Information</h3>
 			<div class="text">
-				<b class="podnadpis">Registered Name:</b>
+				<b class="subheading">Registered Name:</b>
 				<p>Board of European Students of Technology<br>
 	  				 - Európska rada študentov technických univerzít (BEST)<br>
 	  				 - BEST Technická univerzita Košice
 				</p>
-				<b class="podnadpis">Billing and Post Adress:</b>
+				<b class="subheading">Billing and Post Adress:</b>
 				<p>Letná 9, 040 01 Košice, Slovakia</p>
-				<b class="podnadpis">Office:</b>
+				<b class="subheading">Office:</b>
 				<p>Technical University of Kosice,<br> Boženy Nemcovej 32, 040 01 Košice</p>
 			</div>
 	
@@ -26,7 +26,7 @@
 		<div class="president"><b class="year">1995/1996</b> Peter Zvirinsky</div>
 		<div class="president"><b class="year">1997/1998</b> Mikulas Paulo</div>
 	    <div class="president"><b class="year">1999/2000</b> Andrej Turcan</div>
-		<div class="president"><b class="year">2000/2001</b> Mikulas Fekete / Peter Zvirinsky / Lubomir Ziak</div>
+		<div class="president"><b class="year">2000/2001</b> Lubomir Ziak</div>
 		<div class="president"><b class="year">2001/2002</b> Manuela Raisova</div>
 		<div class="president"><b class="year">2002/2003</b> Jan Mihalik</div>
 	    <div class="president"><b class="year">2003/2004</b> Emilia Sabolova</div>
